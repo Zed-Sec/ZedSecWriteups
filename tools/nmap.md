@@ -2,10 +2,6 @@
 
 ## Syntax
 
-```
-nmap [scan type] [options] [target]
-```
-
 > nmap \[scan type] \[options] \[target]
 
 ## Cheat Sheet
