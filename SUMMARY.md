@@ -2,6 +2,19 @@
 
 * [Home](README.md)
 
+## Certs
+
+* [Security+ (SY0-601)](certs/tryhackme/README.md)
+  * [1 - Threats, Attacks and Vulnerabiliites](certs/tryhackme/1-threats-attacks-and-vulnerabiliites.md)
+  * [2 - Architecture and Design](certs/tryhackme/2-architecture-and-design.md)
+  * [3 - Implementation](certs/tryhackme/3-implementation.md)
+  * [4 - Operations and Incident Response](certs/tryhackme/4-operations-and-incident-response.md)
+* [Azure Fundamentals (AZ-900)](certs/azure-fundamentals-az-900.md)
+
+## Tools
+
+* [NMAP](tools/nmap.md)
+
 ## Write-ups
 
 * [HackTheBox](write-ups/hackthebox/README.md)
@@ -21,7 +34,3 @@
   * [Basic Pentesting](tryhackme/basic-pentesting.md)
   * [Kenobi](tryhackme/kenobi.md)
   * [Pickle Rick](tryhackme/pickle-rick.md)
-
-## Tools
-
-* [NMAP](tools/nmap.md)
