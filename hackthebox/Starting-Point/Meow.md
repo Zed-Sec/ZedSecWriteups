@@ -1,2 +1,2 @@
-# HackTheBox Meow
+# Meow
 
