@@ -4,7 +4,8 @@
 
 ## HackTheBox
 
-* [Page 4](hackthebox/page-4.md)
+* [Starting Point](hackthebox/starting-point/README.md)
+  * [Meow](hackthebox/starting-point/meow.md)
 * [Page 2](hackthebox/page-2.md)
 * [Page 1](hackthebox/page-1.md)
 
