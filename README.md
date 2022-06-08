@@ -1,3 +1,8 @@
+---
+cover: .gitbook/assets/ZedSec YOUTUBE BANNER.png
+coverY: 0
+---
+
 # Home
 
 ## About
