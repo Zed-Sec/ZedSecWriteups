@@ -4,12 +4,12 @@
 
 ## Certs
 
-* [Security+ (SY0-601)](certs/tryhackme/README.md)
-  * [1 - Threats, Attacks and Vulnerabiliites](certs/tryhackme/1-threats-attacks-and-vulnerabiliites.md)
-  * [2 - Architecture and Design](certs/tryhackme/2-architecture-and-design.md)
-  * [3 - Implementation](certs/tryhackme/3-implementation.md)
-  * [4 - Operations and Incident Response](certs/tryhackme/4-operations-and-incident-response.md)
 * [Azure Fundamentals (AZ-900)](certs/azure-fundamentals-az-900.md)
+* [Security+ (SY0-601)](certs/security+-sy0-601/README.md)
+  * [1 - Threats, Attacks and Vulnerabiliites](certs/security+-sy0-601/1-threats-attacks-and-vulnerabiliites.md)
+  * [2 - Architecture and Design](certs/security+-sy0-601/2-architecture-and-design.md)
+  * [3 - Implementation](certs/security+-sy0-601/3-implementation.md)
+  * [4 - Operations and Incident Response](certs/security+-sy0-601/4-operations-and-incident-response.md)
 
 ## Tools
 
@@ -30,6 +30,7 @@
     * [Crocodile](hackthebox/starting-point/crocodile.md)
     * [Responder](hackthebox/starting-point/responder.md)
     * [Ignition](hackthebox/starting-point/ignition.md)
+    * [Bike](write-ups/hackthebox/starting-point/bike.md)
 * [TryHackMe](write-ups/tryhackme/README.md)
   * [Basic Pentesting](tryhackme/basic-pentesting.md)
   * [Kenobi](tryhackme/kenobi.md)
