@@ -32,6 +32,7 @@
     * [Ignition](hackthebox/starting-point/ignition.md)
     * [Bike](write-ups/hackthebox/starting-point/bike.md)
     * [Pennyworth](write-ups/hackthebox/starting-point/pennyworth.md)
+    * [Tactics](write-ups/hackthebox/starting-point/tactics.md)
 * [TryHackMe](write-ups/tryhackme/README.md)
   * [Basic Pentesting](tryhackme/basic-pentesting.md)
   * [Kenobi](tryhackme/kenobi.md)
