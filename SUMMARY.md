@@ -33,6 +33,7 @@
     * [Bike](write-ups/hackthebox/starting-point/bike.md)
     * [Pennyworth](write-ups/hackthebox/starting-point/pennyworth.md)
     * [Tactics](write-ups/hackthebox/starting-point/tactics.md)
+    * [Archetype](write-ups/hackthebox/starting-point/archetype.md)
 * [TryHackMe](write-ups/tryhackme/README.md)
   * [Basic Pentesting](tryhackme/basic-pentesting.md)
   * [Kenobi](tryhackme/kenobi.md)
