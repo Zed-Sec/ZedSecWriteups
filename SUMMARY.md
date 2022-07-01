@@ -38,3 +38,8 @@
   * [Basic Pentesting](tryhackme/basic-pentesting.md)
   * [Kenobi](tryhackme/kenobi.md)
   * [Pickle Rick](tryhackme/pickle-rick.md)
+
+## Security Operations
+
+* [Cyber Kill Chain](security-operations/cyber-kill-chain.md)
+* [Interview Questions](security-operations/interview-questions.md)
