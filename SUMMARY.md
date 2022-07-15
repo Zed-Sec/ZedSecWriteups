@@ -4,7 +4,8 @@
 
 ## Certs
 
-* [Azure Fundamentals (AZ-900)](certs/azure-fundamentals-az-900.md)
+* [Azure Fundamentals (AZ-900)](certs/azure-fundamentals-az-900/README.md)
+  * [Resources Used](certs/azure-fundamentals-az-900/resources-used.md)
 * [Security+ (SY0-601)](certs/security+-sy0-601/README.md)
   * [1 - Threats, Attacks and Vulnerabiliites](certs/security+-sy0-601/1-threats-attacks-and-vulnerabiliites.md)
   * [2 - Architecture and Design](certs/security+-sy0-601/2-architecture-and-design.md)
