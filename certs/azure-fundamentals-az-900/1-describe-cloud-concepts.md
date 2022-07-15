@@ -1,6 +1,6 @@
 # 1 - Describe Cloud Concepts
 
-## 1 - Describe Cloud Concepts
+## 1.1 - Introduction to Azure Fundamentals
 
 ### What is cloud computing?
 
@@ -148,3 +148,31 @@ Some of the most common AI and machine learning service types in Azure:
 #### DevOps
 
 DevOps brings together processes and technology by automating software delivery to provide continuous value to your users. With ADO, you can create **build** and **release** pipelines that provide continuous integration, delivery and deployment for applications. You can integrate repositories and application tests, perform application monitoring, and work with build artifacts. You can also work with backlog items for tracking, automate infrastructure deployment, and integrate a range of third-party tools and services such as Jenkins and Chef.
+
+### Azure Accounts
+
+To create and use Azure services, you need an Azure subscription. When you create an Azure account a subscription is created for you. Once you've created the account you can create additional subscriptions, such as a subscription for development, marketing, sales, etc. Once you've created a subscription you can start creating resources within each subscription.
+
+![](<../../.gitbook/assets/image (1).png>)
+
+You can create a free account which gives access to:
+
+* Free access to Azure products for 12 months.
+* A credit to spend for the first 30 days.
+* Access to more than 25 products that are always free.
+
+Students can also create an account which gives $100 free credit and free developer tools to play around with.
+
+## 1.2 Discuss Azure fundamental concepts
+
+### Public, Private, and Hybrid clouds
+
+There are three deployment models for cloud computing:
+
+| Deployment model | Description                                                                                                                                                                                                                                           |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Public cloud     | Services are offered over the public internet and available to anybody who wants to purchase them. Cloud resources, such as servers and storage, are owned and operated by a third-party cloud service provider, and delivered over the internet.     |
+| Private cloud    | A private cloud consists of computing resources used exclusively by users from one business or organization. A private cloud can be physically located at your organization's on-site datacenter, or can be hosted by a third party service provider. |
+| Hybrid cloud     | A mix between the two, allowing data and applications to be shared between public and private resources.                                                                                                                                              |
+
+[https://docs.microsoft.com/en-gb/learn/modules/fundamental-azure-concepts/types-of-cloud-computing](https://docs.microsoft.com/en-gb/learn/modules/fundamental-azure-concepts/types-of-cloud-computing) - stopping point
