@@ -1,4 +1,4 @@
-# 1 - Describe Cloud Concepts
+# 1 - Describe Core Azure Concepts
 
 ## 1.1 - Introduction to Azure Fundamentals
 
@@ -275,3 +275,84 @@ Cloud computing is a consumption-based model, meaning users only pay for the res
 Like PaaS, serverless computing enables developers to build applications faster by eliminating the need for them to manage the infrastructure. With a serverless application, the cloud service provider automatically provisions, scales and manages the infrastructure required to run the code.
 
 This is only considered serverless because the developer doesn't need to manage the server.
+
+## 1.3 Describe core Azure architectural components
+
+### Overview of Azure subscriptions, management groups, and resources
+
+![](<../../.gitbook/assets/image (4).png>)
+
+* **Resources -** Resources are instances of services you create, like virtual machines, storage, or SQL databases.
+* **Resource groups -** Resources are combined into resource groups, which act as a logical container into which Azure resources like web apps, databases, and storage accounts are deployed and managed.
+* **Subscriptions -** A subscription groups together user accounts and the resources that have been created by those accounts. For each subscription, there are limits or quotas on the amount of resources that you can create and use. Organizations can use subscriptions to manage costs and the resources that are created by users, teams, or projects.
+* **Management groups -** These groups help you manage access, policy, and compliance for multiple subscriptions in a management group automatically inherit the conditions applied to the management group.
+
+### Azure regions, availability zones, and region pairs
+
+* **Azure regions -** A region is a geographical area that contains at least one datacenter. When you deploy resources in Azure you'll need to choose the region where you want it deployed.
+* **Availability zones -** An availability zone is a physically separate datacenter within an Azure region. Each zone is made up of more one or more datacenters equipped with independent power, cooling, and networking. Availability zones are set up to be isolating boundaries, if one goes down, the other continues working. They're connected through high-speed, private fiber-optic networks.
+  * **Zonal services -** You pin the resources to a specific availability zone (for examples, VMs, managed disks, IP addresses).
+  * **Zone-redundant services -** The platform replicated automatically across zones (zone-redundant storage, SQL Database).
+  * **Non-regional services -** Services are always available from Azure geographies and are resilient to zone-wide outages as well as region-wide outages.
+* **Azure region pairs -** Availability zones are created using one or more datacenters, with a minimum of three zones in a single region. If a large disaster causes an issue with two datacenters in on zone it could cause a large outage, this is where region pairs come in. Each region is paired with another region in the same geography (such as US, Europe, or Asia) at least 300 miles away. This allows replication of resources across a geography that helps reduce the likelihood of interruptions even in natural disaster events.
+  * **Region pair example -** US West is paired with US East.
+
+### Azure resources and Azure Resource Manager
+
+**Resource groups**
+
+Resource groups are logical containers for resources deployed in Azure. These resources are anything you create in an Azure subscription like VMs, Azure Application Gateway instances, and Azure Cosmos DB instances. All resources must be in a resource group, and a resource can only be a member of a single resource group. Resources can be moved between resource groups and resources can't be nested. Before you can create a resource you have to have a resource group for it to be placed in.
+
+* **Logical grouping -** Resource groups exist to help manage and organize Azure resources. By placing resources of similar usage, type, or location in a resource group, you can provide order and organization to resources you create in Azure.
+* **Life cycle -** If you delete a resource group, all resources within are also deleted. Ordering resources by life cycle can be useful in nonproductive environments where you might experiment and then dispose of it. Resource groups make it easy to remove a set of resources all at once.
+* **Authorization -** Resource groups are also a scope for applying role-based access control (RBAC) permissions to a resource group, you can ease administration and limit access easily.
+
+**Azure Resource Manager**
+
+Resource Manager is the deployment and management service for Azure. It provides a management layer that allows you to create, update, and delete resources in your Azure account. You can use features like control, locks, and tags to organize resources after deposit.
+
+When a user makes a request from an Azure tool, API, or SDK, Resource Manager receives the request, then it authenticates and authorizes the request. Resource Manager sends the request to Azure service, which actions the request. All requests are handled through the same API.
+
+The role of Resource Manager can be seen in the below image.
+
+![](<../../.gitbook/assets/image (2).png>)
+
+* **Resource Manager benefits -** with Resource Manager, you can:
+  * Manage your infrastructure through declarative templates rather than scripts. A Resource Manager template is defined within a JSON file.
+  * Deploy, manage, and monitor all the resources for your solution as a group, rather than handling these resources individually.
+  * Redeploy your solution throughout the development lifecycle.
+  * Define dependencies between resources so that they're deployed in the correct order.
+  * Apply access control to all services via native RBAC.
+  * Apply tags to resources to logically organize all the resources in your subscription.
+  * Clarify your organization's billing by viewing costs for a groups of resources that share the same name tag.
+
+### Azure subscriptions and management groups
+
+**Azure subscriptions**
+
+Using Azure requires a subscription. A subscription provides you with authenticated and authorized access to Azure products and services. An Azure subscription is a logical unit of Azure services that links to an Azure account, which is an identity in Azure AD.
+
+An account can have one subscription or multiple subscriptions for different purposes. Different subscriptions can have different access-management policies applied. There are two types of subscription boundaries that can be applied:
+
+* **Billing boundary -** This determines how an Azure account is billed for using Azure. You can create different subscriptions for different billing purposes. Azure generates billing reports per subscription so this can be used to organize and manage costs.
+* **Access control boundary -** Azure applied access-management policies at the subscription level. You can have different departments that are applied distinct subscription policies.&#x20;
+
+### Azure management groups
+
+In an organization with many subscriptions, you might need a way to manage access, policies, and compliance for those subscriptions. Azure management groups provide a scope above subscriptions. Subscriptions are organized into containers called management groups. All subscriptions within a management group automatically inherit the conditions applied to the management group.
+
+**Management group hierarchy**
+
+Management groups can have a hierarchical structure:&#x20;
+
+![](<../../.gitbook/assets/image (3).png>)
+
+You can create a hierarchy that applies a policy. For example, you could limit VM locations to the US West Region in a group called production. This policy would inherit to all subscriptions that are descendants of that management group.
+
+Things to bear in mind about management groups:
+
+* 10,000 management groups can be supported in a single directory.
+* A management group tree can support up to six levels of depth. This doesn't include the root level or the subscription level.
+* Each management group and subscription can only support one parent.
+* Each management group can have many children.
+* All subscriptions and management groups are within a single hierarchy in each directory.
