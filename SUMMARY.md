@@ -7,7 +7,6 @@
 * [Azure Fundamentals (AZ-900)](certs/azure-fundamentals-az-900.md)
   * [Resources Used](certs/azure-fundamentals-az-900/resources-used.md)
   * [1 - Describe Cloud Concepts](certs/azure-fundamentals-az-900/1-describe-cloud-concepts.md)
-* [Page 1](certs/page-1.md)
 * [Security+ (SY0-601)](certs/security+-sy0-601/README.md)
   * [1 - Threats, Attacks and Vulnerabiliites](certs/security+-sy0-601/1-threats-attacks-and-vulnerabiliites.md)
   * [2 - Architecture and Design](certs/security+-sy0-601/2-architecture-and-design.md)

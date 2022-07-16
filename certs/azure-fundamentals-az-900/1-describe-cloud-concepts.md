@@ -20,7 +20,7 @@ Azure is a collection of cloud services from Microsoft.
 
 Azure has many available services find an infographic with some of these services below:
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (1).png>)
 
 Some of the more commonly used categories are:
 
@@ -153,7 +153,7 @@ DevOps brings together processes and technology by automating software delivery 
 
 To create and use Azure services, you need an Azure subscription. When you create an Azure account a subscription is created for you. Once you've created the account you can create additional subscriptions, such as a subscription for development, marketing, sales, etc. Once you've created a subscription you can start creating resources within each subscription.
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 You can create a free account which gives access to:
 
@@ -175,4 +175,103 @@ There are three deployment models for cloud computing:
 | Private cloud    | A private cloud consists of computing resources used exclusively by users from one business or organization. A private cloud can be physically located at your organization's on-site datacenter, or can be hosted by a third party service provider. |
 | Hybrid cloud     | A mix between the two, allowing data and applications to be shared between public and private resources.                                                                                                                                              |
 
-[https://docs.microsoft.com/en-gb/learn/modules/fundamental-azure-concepts/types-of-cloud-computing](https://docs.microsoft.com/en-gb/learn/modules/fundamental-azure-concepts/types-of-cloud-computing) - stopping point
+### Cloud Model Comparison
+
+**Public Cloud:**
+
+* No capital expenditure to scale up.
+* Applications can be quickly provisioned and deprovisioned.
+* Organizations pay only for what they use.
+
+**Private Cloud:**
+
+* Hardware must be purchased for start-up and maintenance.
+* Organizations have complete control over resources and security.
+* Organizations are responsible for hardware maintenance and updates.
+
+**Hybrid Cloud:**
+
+* Provides the most flexibility.
+* Organizations determine where to run their applications.
+* Organizations control security, compliance, or legal requirements.
+
+### Benefits and considerations of cloud computing
+
+**Advantages**&#x20;
+
+* **High availability -** Depending on the SLA, your cloud-based apps can provides continuous user experience with no apparent downtime.
+* **Scalability -** Apps in the cloud can scale vertically and horizontally:
+  * Vertically to increase compute capacity adding RAM or CPU to a virtual machine.
+  * Horizontally by adding resources such as more VMs to the configuration.
+* **Elasticity -** You can configure cloud-based apps to take advantage of auto-scaling, so your apps always have the resources they need.
+* **Agility -** Deploy and configure cloud-based resources quickly as your app requirements change.
+* **Geo-distribution -** You can deploy apps and data to different datacenters around the globe. This allows consistent customer experience all over the world.
+* **Disaster recovery -** By taking advantage of cloud-based backup services, data replication, and geo-distribution, you can deploy your apps with the confidence that comes from knowing your data is safe in the event of disaster.
+
+**Capital expenses vs. operating expenses**
+
+There are two different types of expenses that you should consider:
+
+* **Capital Expenditure (CapEx) -** is the up-front spending of money on physical infrastructure, and then deducting that up-front expense over time. The up-front cost from CapEx has a value that reduces over time.
+* **Operational Expenditure -** is spending money on services of products now and being billed for them now. You can deduct this expense the same year you spend it. There is no up-front cost as you pay for services as you use them.
+
+**Consumption-based model**
+
+Cloud computing is a consumption-based model, meaning users only pay for the resources that they use. The benefits of this are:
+
+* No upfront costs.
+* No need to purchase or manage infrastructure.
+* The ability to pay for additional resources as they are needed.
+* The ability to stop paying for resources that are no longer needed.
+
+### Different cloud service models
+
+| Model | Definition                  | Description                                                                                                                                                                                                                                                                                                                    |
+| ----- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| IaaS  | Infrastructure-as-a-Service | Cloud provider keeps the hardware up-to-date, but operating system maintenance and network config is up to the user. This model allows you to set up and manager your own virtual machines.                                                                                                                                    |
+| PaaS  | Platform-as-a-Service       | The cloud provider manages the virtual machines and networking resources, and the cloud tenant deploys their applications into the managed hosting environment. Azure App Services provides a managed hosting environment where developers can upload web applications without having to manage the underlying infrastructure. |
+| SaaS  | Software-as-a-Service       | The cloud provider manages all aspects of the application environment. The cloud tenant only needs to provide their data to the application. For example, Office 365.                                                                                                                                                          |
+
+**IaaS**
+
+* **Advantages**&#x20;
+  * No CapEx - Users have no up-front costs.
+  * Agility - applications can be made accessible quickly, and deprovisioned whenever needed.
+  * Management - The users maintain the services they provision and the provider maintains the cloud infrastructure.
+  * Consumption-based model - Organizations pay only for what they use.
+  * Skills - Deep technical skills aren't required to use, and gain the benefits of a public cloud.
+  * Cloud benefits - Organizations can use the skills and expertise of the cloud provider to ensure workloads are made secure and highly available.
+  * Flexibility - IaaS is the most flexible cloud service because you have control to configure and manage the hardware running your application.
+
+**PaaS**
+
+* **Advantages**
+  * No CapEx.
+  * Agility.
+  * Consumption-based model.
+  * Skills.
+  * Cloud benefits.
+  * Productivity - Users can focus on application development only.
+* **Disadvantages**
+  * Platform limitations - There may be some limitations to the platform.
+
+**SaaS**
+
+* **Advantages**
+  * No CapEx.
+  * Agility.
+  * Pay-as-you-go pricing model - Users pay for the software that they use.
+  * Skills.
+  * Flexibility.
+* **Disadvantages**
+  * Software limitations - You don't have control over software features.
+
+**Cloud service model comparison**
+
+![](../../.gitbook/assets/image.png)
+
+### **Serverless Computing**
+
+Like PaaS, serverless computing enables developers to build applications faster by eliminating the need for them to manage the infrastructure. With a serverless application, the cloud service provider automatically provisions, scales and manages the infrastructure required to run the code.
+
+This is only considered serverless because the developer doesn't need to manage the server.
