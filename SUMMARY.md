@@ -19,6 +19,9 @@
 
 ## Write-ups
 
+* [Blue Team Labs Online](write-ups/blue-team-labs-online/README.md)
+  * [Challenges](write-ups/blue-team-labs-online/challenges/README.md)
+    * [The Report](write-ups/blue-team-labs-online/challenges/the-report.md)
 * [HackTheBox](write-ups/hackthebox/README.md)
   * [Starting Point](hackthebox/starting-point/README.md)
     * [Meow](hackthebox/starting-point/meow.md)
@@ -40,9 +43,6 @@
   * [Basic Pentesting](tryhackme/basic-pentesting.md)
   * [Kenobi](tryhackme/kenobi.md)
   * [Pickle Rick](tryhackme/pickle-rick.md)
-* [Blue Team Labs Online](write-ups/blue-team-labs-online/README.md)
-  * [Challenges](write-ups/blue-team-labs-online/challenges/README.md)
-    * [The Report](write-ups/blue-team-labs-online/challenges/the-report.md)
 
 ## Security Operations
 
