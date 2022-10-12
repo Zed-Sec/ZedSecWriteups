@@ -268,7 +268,7 @@ Cloud computing is a consumption-based model, meaning users only pay for the res
 
 **Cloud service model comparison**
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (7).png>)
 
 ### **Serverless Computing**
 
@@ -280,7 +280,7 @@ This is only considered serverless because the developer doesn't need to manage 
 
 ### Overview of Azure subscriptions, management groups, and resources
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 * **Resources -** Resources are instances of services you create, like virtual machines, storage, or SQL databases.
 * **Resource groups -** Resources are combined into resource groups, which act as a logical container into which Azure resources like web apps, databases, and storage accounts are deployed and managed.
@@ -315,7 +315,7 @@ When a user makes a request from an Azure tool, API, or SDK, Resource Manager re
 
 The role of Resource Manager can be seen in the below image.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 * **Resource Manager benefits -** with Resource Manager, you can:
   * Manage your infrastructure through declarative templates rather than scripts. A Resource Manager template is defined within a JSON file.
