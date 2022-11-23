@@ -5,7 +5,10 @@
 ## Certs
 
 * [AZ-900](certs/az-900/README.md)
-  * [Page 1](certs/az-900/page-1.md)
+  * [Objectives](certs/az-900/objectives.md)
+  * [1 - Describe Cloud Concepts](certs/az-900/1-describe-cloud-concepts.md)
+  * [2 - Describe Azure Architecture and Components](certs/az-900/2-describe-azure-architecture-and-components.md)
+  * [3 - Describe Azure Management and Governance](certs/az-900/3-describe-azure-management-and-governance.md)
 * [Security+ (SY0-601)](certs/security+-sy0-601/README.md)
   * [1 - Threats, Attacks and Vulnerabiliites](certs/security+-sy0-601/1-threats-attacks-and-vulnerabiliites.md)
   * [2 - Architecture and Design](certs/security+-sy0-601/2-architecture-and-design.md)
