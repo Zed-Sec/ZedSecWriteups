@@ -4,7 +4,8 @@
 
 ## Certs
 
-* [AZ-900](certs/az-900.md)
+* [AZ-900](certs/az-900/README.md)
+  * [Page 1](certs/az-900/page-1.md)
 * [Security+ (SY0-601)](certs/security+-sy0-601/README.md)
   * [1 - Threats, Attacks and Vulnerabiliites](certs/security+-sy0-601/1-threats-attacks-and-vulnerabiliites.md)
   * [2 - Architecture and Design](certs/security+-sy0-601/2-architecture-and-design.md)
