@@ -47,8 +47,17 @@
   * [Basic Pentesting](tryhackme/basic-pentesting.md)
   * [Kenobi](tryhackme/kenobi.md)
   * [Pickle Rick](tryhackme/pickle-rick.md)
+* [Kusto Detective Agency](write-ups/kusto-detective-agency/README.md)
+  * [Intro - Welcome to the Kusto Detective Agency](write-ups/kusto-detective-agency/intro-welcome-to-the-kusto-detective-agency.md)
+  * [Case 1 - The rarest book is missing!](write-ups/kusto-detective-agency/case-1-the-rarest-book-is-missing.md)
+  * [Case 2 - Election Fraud?](write-ups/kusto-detective-agency/case-2-election-fraud.md)
+  * [Case 3 - Bank robbery](write-ups/kusto-detective-agency/case-3-bank-robbery.md)
+  * [Case 4 - Ready to play?](write-ups/kusto-detective-agency/case-4-ready-to-play.md)
+  * [Case 5 - Big Heist](write-ups/kusto-detective-agency/case-5-big-heist.md)
 
 ## Security Operations
 
 * [Cyber Kill Chain](security-operations/cyber-kill-chain.md)
 * [Interview Questions](security-operations/interview-questions.md)
+
+## Group 1
