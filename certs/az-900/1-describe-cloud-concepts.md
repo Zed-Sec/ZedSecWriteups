@@ -1,5 +1,9 @@
 # 1 - Describe Cloud Concepts
 
+{% embed url="https://youtu.be/IriGw0fXruk" %}
+Full AZ-900 Course
+{% endembed %}
+
 ## Describe cloud computing
 
 ### Define cloud computing

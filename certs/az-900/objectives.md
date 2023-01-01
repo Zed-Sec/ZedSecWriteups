@@ -1,5 +1,9 @@
 # Objectives
 
+{% embed url="https://youtu.be/IriGw0fXruk" %}
+Full AZ-900 Course
+{% endembed %}
+
 ## Describe cloud concepts (25-30%)
 
 ### Describe cloud computing

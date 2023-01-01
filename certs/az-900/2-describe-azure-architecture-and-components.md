@@ -1,5 +1,9 @@
 # 2 - Describe Azure Architecture and Components
 
+{% embed url="https://youtu.be/IriGw0fXruk" %}
+Full AZ-900 Course
+{% endembed %}
+
 ## Describe the core architectural components of Azure
 
 ![AzureDiagram](https://learn.microsoft.com/en-gb/training/wwl-azure/describe-core-architectural-components-of-azure/media/account-scope-levels-9ceb3abd.png)

@@ -1,5 +1,9 @@
 # 3 - Describe Azure Management and Governance
 
+{% embed url="https://youtu.be/IriGw0fXruk" %}
+Full AZ-900 Course
+{% endembed %}
+
 ## Describe cost management in Azure
 
 ### Describe factors that can affect costs in Azure
