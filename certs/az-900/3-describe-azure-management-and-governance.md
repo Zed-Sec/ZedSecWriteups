@@ -1,12 +1,6 @@
-# 3 - Describe Azure Management and Governance
+# Describe cost management in Azure
 
-{% embed url="https://youtu.be/IriGw0fXruk" %}
-Full AZ-900 Course
-{% endembed %}
-
-## Describe cost management in Azure
-
-### Describe factors that can affect costs in Azure
+## Describe factors that can affect costs in Azure
 
 There are many factors that impact cost in Azure, some of them are:
 
@@ -22,21 +16,21 @@ There are many factors that impact cost in Azure, some of them are:
 * Subscription type
 * Azure Marketplace
 
-### Compare the Pricing calculator and the Total Cost of Ownership (TCO) calculator
+## Compare the Pricing calculator and the Total Cost of Ownership (TCO) calculator
 
-#### Pricing calculator
+### Pricing calculator
 
 Gives an estimation of provisioning resoures in Azure. You can get an estimate for an individual resource or a fully built out solution.
 
-#### TCO calculator
+### TCO calculator
 
 Designed to help compare the costs of running an on-premises infrastructure versus an Azure Cloud infrastructure. Compares the costs of your current infrastructure with the costs of an Azure environment supporting the same requirements.
 
-### Describe the Azure Cost Management and Billing tool
+## Describe the Azure Cost Management and Billing tool
 
 Cost Management allows you to quickly check Azure resource costs, create alerts based on resource spends, amd create budgets that can be used to automate management of resources.
 
-### Describe the purpose of tags
+## Describe the purpose of tags
 
 Tag provide extra metadata attached to resources. This can be used for:
 
@@ -47,9 +41,9 @@ Tag provide extra metadata attached to resources. This can be used for:
 
 Tags consist of a Name/Value pair.
 
-## Describe features and tools in Azure governance and compliance
+# Describe features and tools in Azure governance and compliance
 
-### Describe the purpose of Azure Blueprints
+## Describe the purpose of Azure Blueprints
 
 When the scope of your cloud starts to expand past multiple subscriptions it's important to be able to apply a consistent set of policies an the new subscriptions. Azure Blueprints help you standarise cloud subscription or environment deployments.
 
@@ -60,44 +54,44 @@ Each component the blueprint definition is known as an artifact. Azure Blueprint
 * Azure Resource Manager templates
 * Resource groups
 
-### Describe the purpose of Azure Policy
+## Describe the purpose of Azure Policy
 
 Azure policy allows you to remain compliant and be alerted if the configuration of a resource has changes. Azure Policy allows you to create, assign, and mang
 
-### Describe the purpose of resource locks
+## Describe the purpose of resource locks
 
 Resource locking prevents accidental deletion or editing of resources. There are two types of resource locks:
 
 * Delete means authorized users can still read and modify a resource, but they can't delete th resource.
 * ReadOnly means authorized users can read a resource, but they can't delete or update the resource.
 
-### Describe the purpose of the Service Trust Portal
+## Describe the purpose of the Service Trust Portal
 
 The Service Trust portal provides access to various resources about Microsoft security, privacy, and compliance practices. The portal gives informationa bout Microsoft processes, controls and compliance.
 
-## Describe features and tools for managing and deploying Azure resources
+# Describe features and tools for managing and deploying Azure resources
 
-### Describe the Azure portal
+## Describe the Azure portal
 
 The Azure portal is the GUI portal that allows you to interact with Azure.
 
-### Describe Azure Cloud Shell, including Azure CLI and Azure PowerShell
+## Describe Azure Cloud Shell, including Azure CLI and Azure PowerShell
 
-#### Azure Cloud Shell
+### Azure Cloud Shell
 
 A browser-based shell that allows you to create, configure, and manage Azure resources using a shell. Supports PowerShell and Azure CLI which is a Bash shell.
 
 Cloud Shell is accessed via the Azure portal.
 
-#### Azure PowerShell
+### Azure PowerShell
 
 A shell which can be used to automate repeatable tasks.
 
-#### Azure CLI
+### Azure CLI
 
 Azure CLI is functionally equivalent to Azure PowerShell except it runs Bash commands as opposed to PowerShell commands.
 
-### Describe the purpose of Azure Arc
+## Describe the purpose of Azure Arc
 
 Azure Arc lets you extend Azure compliance and monitoring to your hybrid and multi-cloud configurations.
 
@@ -109,9 +103,9 @@ Azure Arc allows you to:
 * Continue using traditional ITOps while introducing DevOps practives to support new cloud and native patterns in your environment.
 * Configure custom locations as an abstraction layer on top of Azure Arc-enabled Kubernetes clusters and cluseter extensions.
 
-### Describe Azure Resource Manager and Azure Resource Manager templates (ARM templates)
+## Describe Azure Resource Manager and Azure Resource Manager templates (ARM templates)
 
-#### ARM
+### ARM
 
 ARM is the deployment and management service for Azure. It allows you to create, update and delete resources in your Azure account. Anytime you do anything with your Azure resources, ARM is involved.
 
@@ -125,7 +119,7 @@ With ARM, you can:
 * Apply tags to resources to logically organize all the resources in your subscription.
 * Clarify your ogranization's billing by viewing costs for a group of resources that share the same tag.
 
-#### ARM templates
+### ARM templates
 
 Infrastructure as code is when you manage your infastructure using lines of code. ARM templates are an example of this. With an ARM template, you define the resources you want to use using a JSON file. With ARM templates, the JSON is verified before any code is run.
 
@@ -137,9 +131,9 @@ Benefits of ARM templates:
 * Modular files - Templates can be broken into smaller, modular files that can be re-used in other deployments.
 * Extensibility - You can add PowerShell or Bash scripts to your template, which extends functionality of deployments.
 
-## Describe monitoring tools in Azure
+# Describe monitoring tools in Azure
 
-### Describe the purpose of Azure Advisor
+## Describe the purpose of Azure Advisor
 
 Azure Advisor evaluates Azure resources and makes recommendations to help improve reliability, security, and performance, achieve operational exellence, and reduce costs. Recommendation are provided and give advice on actions you can take right away, postpone, or dismiss.
 
@@ -151,7 +145,7 @@ When you're in the Azure portal, the Advisor dashboard displays recommendations 
 * Operational Excellence - Used to help achieve process and workflow efficiency, resource manageability, and deployment best practices.
 * Cost - Used to optimize and reduce Azure spending.
 
-### Describe Azure Service Health
+## Describe Azure Service Health
 
 Helps keep track of Azure resources. This comes in three different services:
 
@@ -159,23 +153,23 @@ Helps keep track of Azure resources. This comes in three different services:
 * Service Health - Narrower view of services and regions. Focuses only on the services and regions that you're using. This is helpful for looking for comms about outages, planned maintenance activities, and other health advisories because of the authenticated Service Health. You can set up notifications for planned maintenance and other changes that may affect your services and regions.
 * Resource Health - Tailored view of your actual Azure resources. Giving specific information such as a specific virtual machine instance.
 
-### Describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights
+## Describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights
 
-#### Azure Monitor
+### Azure Monitor
 
 Platform for collecting data on your resources, analyzing that data, visualizing the information, and even acting on the results.
 
 ![AzureMonitor](https://learn.microsoft.com/en-gb/training/wwl-azure/describe-monitoring-tools-azure/media/azure-monitor-overview-614cd2fd.svg)
 
-#### Azure Log Analytics
+### Azure Log Analytics
 
 Lets you write log queries based ond ata gathered by Azure Monitor.
 
-#### Azure Monitor Alerts
+### Azure Monitor Alerts
 
 Automated way to stay informed when Azure Monitor thresholds are being crossed. You set the alert conditions, the notification actions, and then Azure Monitor Alerts notifies when an alert is triggered. Azure Monitor is also able to be configured to attempt corrective action.
 
-#### Application Insights
+### Application Insights
 
 An Azure Monitor feature, monitors your web applications. Capable of monitoring applications that are running in Azure, on-premises, or in a different cloud environment.
 
