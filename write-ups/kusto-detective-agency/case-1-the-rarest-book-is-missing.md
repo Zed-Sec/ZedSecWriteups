@@ -1,5 +1,11 @@
 # Case 1 - The rarest book is missing!
 
+### Video Walt through
+
+{% embed url="https://youtu.be/H4tnbqKWmCY" %}
+Kusto Detective Agency - Case 1 Walkthrough
+{% endembed %}
+
 ### Intro
 
 For this one we're given a bit more of a challenge for the first official case. A book has gone missing, and we have to find it. Start by running the ingestion script to bring in the data we need for this case.
