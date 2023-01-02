@@ -1,6 +1,6 @@
 # Case 1 - The rarest book is missing!
 
-### Video Walt through
+### Video Walkthrough
 
 {% embed url="https://youtu.be/H4tnbqKWmCY" %}
 Kusto Detective Agency - Case 1 Walkthrough
