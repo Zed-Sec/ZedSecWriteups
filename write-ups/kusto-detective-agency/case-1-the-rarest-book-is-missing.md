@@ -16,7 +16,7 @@ For this one we're given a bit more of a challenge for the first official case. 
 * The RFID for the book we're looking for has been found on the floor.
 * We need to locate which shelf the book is on.
 
-### Tables:
+### Tables
 
 There's two tables that have been ingested by the ingestion script, **Books** and **Shelves**. We can check the columns in a table using the **getschema** operator:
 
