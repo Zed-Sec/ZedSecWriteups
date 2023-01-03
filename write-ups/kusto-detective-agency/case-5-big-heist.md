@@ -10,6 +10,8 @@ This time we’ve just got chat logs to look at. There’s a table called ChatLo
 
 We need to find the exact time and place for the heist.
 
+### Walkthrough
+
 We’re going to start by taking a few samples of the data to see what it actually looks like and how he can start to think about how we’re going to get these naughty boys:
 
 ```
