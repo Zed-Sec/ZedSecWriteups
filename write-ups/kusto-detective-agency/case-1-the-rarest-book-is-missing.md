@@ -8,7 +8,7 @@ Kusto Detective Agency - Case 1 Walkthrough
 
 ### Intro
 
-For this one we're given a bit more of a challenge for the first official case. A book has gone missing, and we have to find it. Start by running the ingestion script to bring in the data we need for this case.
+Kusto Detective Agency - Case 1 - The rarest book is missing! For this one we're given a bit more of a challenge for the first official case. A book has gone missing, and we have to find it. Start by running the ingestion script to bring in the data we need for this case.
 
 ### Key Information
 
