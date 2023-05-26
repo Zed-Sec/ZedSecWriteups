@@ -26,7 +26,6 @@ For this one we've got a list of bounty programs and the detectives that solved 
 
 First thing I did was found the cost of each bounty:
 
-````
 ```kusto
 DetectiveCases
 // Find the bounty for each case
@@ -34,13 +33,11 @@ DetectiveCases
 | extend Bounty = toreal(Properties.Bounty)
 | distinct CaseId, Bounty
 ```
-````
 
 The first issue I spotted was that you only find out the bounty on the **CaseOpened** EventType and not the **CaseClosed** EventType. Only the **CaseClosed** types are actually associated with the detectives and their retrospective IDs.
 
 The final solution I came up with was:
 
-````
 ```kusto
 DetectiveCases
 // Find the bounty for each case
@@ -59,7 +56,6 @@ DetectiveCases
     //Grab the top person
     | top 1 by sum_Bounty
 ```
-````
 
 The solution is commented but I'll break it down a little bit. First we start by getting the bounty for each distinct ID and bounty. That data is joined back into the Detective case table but this time looking for the **CaseSolved** EventType. Then **arg\_min** is used to find the first timestamp and detective ID for each case.
 
