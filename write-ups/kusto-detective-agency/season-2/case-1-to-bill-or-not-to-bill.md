@@ -1,5 +1,11 @@
 # Case 1 - To bill or not to bill?
 
+### Video Walkthrough
+
+{% embed url="https://youtu.be/FPhCqbTLSCA" %}
+Kusto Detective Agency Season 2 - Case 1 Walkthrough
+{% endembed %}
+
 ### Intro
 
 Kusto Detective Agency - Season 2 - Case 1 - To bill or not to bill?
