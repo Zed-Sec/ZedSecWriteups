@@ -58,6 +58,7 @@
   * [Season 2](write-ups/kusto-detective-agency/season-2/README.md)
     * [Welcome to the Kusto Detective Agency - Season 2!](write-ups/kusto-detective-agency/season-2/welcome-to-the-kusto-detective-agency-season-2.md)
     * [Case 1 - To bill or not to bill?](write-ups/kusto-detective-agency/season-2/case-1-to-bill-or-not-to-bill.md)
+    * [Case 2 - Catch the Phishermen!](write-ups/kusto-detective-agency/season-2/case-2-catch-the-phishermen.md)
 
 ## Security Operations
 
