@@ -1,5 +1,11 @@
 # Case 2 - Catch the Phishermen!
 
+### Video Walkthrough
+
+{% embed url="https://www.youtube.com/watch?t=&v=9kJKdbeRFXI" %}
+Kusto Detective Agency Season 2 - Case 2 Walkthrough
+{% endembed %}
+
 ### Intro
 
 Kusto Detective Agency - Season 2 - Case 2 - Catch the Phishermen!
