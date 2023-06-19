@@ -31,7 +31,7 @@ This gives us two places:
 * Ave 122, Street 251
 * Ave 223, Street 86
 
-We now know where the cars are being kept, so let's build a query based on that information.
+We now know where the cars are being switched, so let's build a query based on that information.
 
 This time I grabbed the timestamp from the first car that showed up on my list **IN149152E**, the timestamp was **2023-06-10T14:10:00Z.** I looked for cars that showed up on the timestamps 2 minutes after that on the street where the car was last seen Ave == 223 and Street == 86.
 
