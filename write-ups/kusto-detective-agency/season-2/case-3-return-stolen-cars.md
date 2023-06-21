@@ -2,6 +2,10 @@
 
 ### Video Walkthrough
 
+{% embed url="https://youtu.be/cs-OrCDiE3Y" %}
+Kusto Detective Agency Season 2 - Case 3 Walkthrough
+{% endembed %}
+
 ### Intro
 
 Kusto Detective Agency - Season 2 - Case 3 - Return Stolen Cars
