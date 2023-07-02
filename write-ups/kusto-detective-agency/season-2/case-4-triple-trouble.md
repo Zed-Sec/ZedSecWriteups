@@ -4,6 +4,8 @@ Video Walkthrough
 
 ## Intro
 
+Kusto Detective Agency - Season 2 - Case 4 - Triple Trouble
+
 This week Gaia Budskott, the mayor of Digitown has been accused of leaking a bunch of documents from the network at the Digitown municipality office. We've been given network traffic and a table of IP info and we have to find the person who has been stealing the data.
 
 ### Walkthrough
