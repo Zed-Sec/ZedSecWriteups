@@ -1,6 +1,10 @@
 # Case 4 - Triple Trouble!
 
-Video Walkthrough
+### Video Walkthrough
+
+{% embed url="https://youtu.be/uHhJLfPjI6w" %}
+Kusto Detective Agency - Season 2 - Case 4 - Triple Trouble - Video Walkthrough
+{% endembed %}
 
 ## Intro
 
