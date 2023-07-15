@@ -61,6 +61,7 @@
     * [Case 2 - Catch the Phishermen!](write-ups/kusto-detective-agency/season-2/case-2-catch-the-phishermen.md)
     * [Case 3 - Return Stolen Cars!](write-ups/kusto-detective-agency/season-2/case-3-return-stolen-cars.md)
     * [Case 4 - Triple Trouble!](write-ups/kusto-detective-agency/season-2/case-4-triple-trouble.md)
+    * [Case 5 - Blast into the past](write-ups/kusto-detective-agency/season-2/case-5-blast-into-the-past.md)
 
 ## Security Operations
 
