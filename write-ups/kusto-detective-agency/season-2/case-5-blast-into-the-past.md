@@ -4,7 +4,7 @@
 
 
 
-{% embed url="https://youtu.be/A6QR7owYZOk" %}
+{% embed url="https://www.youtube.com/watch?v=A6QR7owYZOk" %}
 Kusto Detective Agency - Season 2 - Case 5 - Blast into the past - Video Walkthrough
 {% endembed %}
 
