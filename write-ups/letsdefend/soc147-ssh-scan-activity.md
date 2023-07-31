@@ -10,7 +10,7 @@
 
 So we've got an incident for SSH Scan Activity. We can see that a machine has done what looks like an nmap scan and we need to confirm whether this is expected activity or not and then close the alert off.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (2).png>)
 
 Start off by taking a note of some of the important details in the ticket:
 
