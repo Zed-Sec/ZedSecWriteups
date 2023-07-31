@@ -4,6 +4,10 @@
 
 
 
+{% embed url="https://youtu.be/A98vZaYLGkw" %}
+Kusto Detective Agency - Season 2 - Case 6 - Hack this rank! - Video Walkthrough
+{% endembed %}
+
 ### Intro
 
 Kusto Detective Agency - Season 2 - Case 6 - Hack this rank!
