@@ -63,6 +63,7 @@
     * [Case 4 - Triple Trouble!](write-ups/kusto-detective-agency/season-2/case-4-triple-trouble.md)
     * [Case 5 - Blast into the past](write-ups/kusto-detective-agency/season-2/case-5-blast-into-the-past.md)
     * [Case 6 - Hack this rank!](write-ups/kusto-detective-agency/season-2/case-6-hack-this-rank.md)
+    * [Copy of Case 7 - Mission 'Connect'](write-ups/kusto-detective-agency/season-2/copy-of-case-7-mission-connect.md)
 
 ## Security Operations
 
