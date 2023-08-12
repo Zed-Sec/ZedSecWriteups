@@ -1,4 +1,4 @@
-# Copy of Case 7 - Mission 'Connect'
+# Case 7 - Mission 'Connect'
 
 ### Video Walkthrough
 
