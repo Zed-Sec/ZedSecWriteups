@@ -2,8 +2,8 @@
 
 ### Video Walkthrough
 
-{% embed url="https://youtu.be/y30NIyBeIMA" %}
-Kusto Detective Agency - Season 2 - Case 7 Mission 'Connect' - Video Walkthrough
+{% embed url="https://youtu.be/EK2SSA00a8k" %}
+Kusto Detective Agency - Season 2 - Case 8 Catchy Run - Video Walkthrough
 {% endembed %}
 
 ### Intro
