@@ -15,6 +15,15 @@
   * [3 - Implementation](certs/security+-sy0-601/3-implementation.md)
   * [4 - Operations and Incident Response](certs/security+-sy0-601/4-operations-and-incident-response.md)
 
+## Projects
+
+* [Security Library](projects/security-library.md)
+
+## Security Operations
+
+* [Cyber Kill Chain](security-operations/cyber-kill-chain.md)
+* [Interview Questions](security-operations/interview-questions.md)
+
 ## Tools
 
 * [NMAP](tools/nmap.md)
@@ -65,8 +74,3 @@
     * [Case 6 - Hack this rank!](write-ups/kusto-detective-agency/season-2/case-6-hack-this-rank.md)
     * [Case 7 - Mission 'Connect'](write-ups/kusto-detective-agency/season-2/case-7-mission-connect.md)
     * [Case 8 - Catchy Run](write-ups/kusto-detective-agency/season-2/case-8-catchy-run.md)
-
-## Security Operations
-
-* [Cyber Kill Chain](security-operations/cyber-kill-chain.md)
-* [Interview Questions](security-operations/interview-questions.md)
