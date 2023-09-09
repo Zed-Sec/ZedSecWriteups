@@ -74,3 +74,4 @@
     * [Case 6 - Hack this rank!](write-ups/kusto-detective-agency/season-2/case-6-hack-this-rank.md)
     * [Case 7 - Mission 'Connect'](write-ups/kusto-detective-agency/season-2/case-7-mission-connect.md)
     * [Case 8 - Catchy Run](write-ups/kusto-detective-agency/season-2/case-8-catchy-run.md)
+    * [Case 9 - Network Hunch](write-ups/kusto-detective-agency/season-2/case-9-network-hunch.md)
