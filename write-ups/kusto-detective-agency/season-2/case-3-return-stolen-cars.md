@@ -14,7 +14,7 @@ For this one somebody is stealing cars. We've got a list of 20 stolen cars and a
 
 ### Walkthrough
 
-The main things for this one:
+The main things for this case:
 
 * The plates are being switched over, it takes a few minutes on average to switch the plates over.
 * It's possible there's a few locations the thieves keep going to switch the plates over.

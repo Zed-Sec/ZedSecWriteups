@@ -14,7 +14,7 @@ This week has us digging through network traffic looking for a breached admin ma
 
 ### Walkthrough
 
-The main points for this one:
+The main points for this case:
 
 * We're looking for machines that have confirmed vulnerabilities.
 * We're looking for an admin machine.

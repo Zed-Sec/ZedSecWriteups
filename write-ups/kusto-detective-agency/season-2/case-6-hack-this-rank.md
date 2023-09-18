@@ -19,7 +19,7 @@ This is another week where I'm going to say this was the toughest one yet. I had
 
 ### Walkthrough
 
-The main points for this one:
+The main points for this case:
 
 * We've got a list of art gallery paintings and an encoded string. We need to find the key to decode the string and decode the message.
 * The message will be a riddle which will give us some hints on which key-words we're looking for.

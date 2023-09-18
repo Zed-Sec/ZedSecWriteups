@@ -22,7 +22,7 @@ With the first season you could get 3 hints for each case, that features remains
 
 ### What is the total bills amount in April?
 
-For this one we've got a list of bounty programs and the detectives that solved them, we need to find the detective that earned the most money. The main thing to bear in mind in this one is that only the first detective to solve the case gets the bounty, meaning we're going to need to find the first person to solve each case and then add up all of the bounties for each detective.
+For this case we've got a list of bounty programs and the detectives that solved them, we need to find the detective that earned the most money. The main thing to bear in mind in this one is that only the first detective to solve the case gets the bounty, meaning we're going to need to find the first person to solve each case and then add up all of the bounties for each detective.
 
 First thing I did was found the cost of each bounty:
 
