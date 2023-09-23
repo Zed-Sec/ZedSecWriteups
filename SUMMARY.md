@@ -75,4 +75,4 @@
     * [Case 7 - Mission 'Connect'](write-ups/kusto-detective-agency/season-2/case-7-mission-connect.md)
     * [Case 8 - Catchy Run](write-ups/kusto-detective-agency/season-2/case-8-catchy-run.md)
     * [Case 9 - Network Hunch](write-ups/kusto-detective-agency/season-2/case-9-network-hunch.md)
-    * [Copy of Case 10 - It's a sEnd game](write-ups/kusto-detective-agency/season-2/copy-of-case-10-its-a-send-game.md)
+    * [Case 10 - It's a sEnd game](write-ups/kusto-detective-agency/season-2/case-10-its-a-send-game.md)
