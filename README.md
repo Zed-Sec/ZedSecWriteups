@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/ZedSec YOUTUBE BANNER.png
+cover: .gitbook/assets/ZedSec YOUTUBE BANNER NEW1.png
 coverY: 0
 ---
 

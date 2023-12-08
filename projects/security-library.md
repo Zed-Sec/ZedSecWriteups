@@ -2,9 +2,14 @@
 
 ## Overview
 
-This is a collection of security-related books that I have read and found useful. The titles are listed here in the library with a summary of the book. Some are are related to career development, technical books, or books that breakdown popular cyber attacks.
+This is a collection of security-related books that I have read and found useful. The titles are listed here in the library with a summary of the book. Some are are related to career development, technical books, or books that breakdown popular cyber attacks. Links on this page are just to where I bought them from, they're not affiliate links.
 
 ## Library
+
+### [Blue Team Handbook](https://www.amazon.co.uk/Blue-Team-Handbook-Condensed-Operations/dp/1091493898/ref=sr\_1\_1?crid=3DPC6GWGH4NA5\&keywords=blue+team+handbook\&qid=1702049306\&sprefix=blue+team+handbook%2Caps%2C176\&sr=8-1) - Don Murdoch
+
+* Date Read: December 2023
+* Note: Gives an outline on how to take a SOC from conception to implementation. Covers Analyst skills required, planning the SOC, costs, what to ingest, security use casing, threat hunting, analyst daily checks, SIEM field notes. One of the best books on use casing I've read so far.
 
 ### [Jump-start Your SOC Analyst Career ](https://www.amazon.co.uk/Jump-start-Your-Analyst-Career-Cybersecurity/dp/1484269039)- Tyler Wall & Jarret Rodrick
 
